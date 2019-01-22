@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03D38E721D4A97800A13A7A /* FriendsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D38E621D4A97800A13A7A /* FriendsTableController.swift */; };
+		B03D38EB21D4A9DA00A13A7A /* FriendsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D38EA21D4A9DA00A13A7A /* FriendsTableCell.swift */; };
+		B04D0E1321F6E84C004F00B1 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D0E1221F6E84C004F00B1 /* NewsTableViewController.swift */; };
+		B04D0E1521F6E85B004F00B1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D0E1421F6E85B004F00B1 /* NewsTableViewCell.swift */; };
+		B05E975A21D6AB4400ECA2A7 /* FriendsCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E975921D6AB4400ECA2A7 /* FriendsCollectionController.swift */; };
+		B05E975C21D6AB5F00ECA2A7 /* FriendsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E975B21D6AB5F00ECA2A7 /* FriendsCollectionCell.swift */; };
+		B08E6EF021F1B95E0015FBCC /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E6EEF21F1B95E0015FBCC /* AvatarImageView.swift */; };
+		B08E6EF221F1B9A90015FBCC /* OuterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E6EF121F1B9A90015FBCC /* OuterView.swift */; };
+		B08E6EF421F1C94A0015FBCC /* PhotoRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E6EF321F1C94A0015FBCC /* PhotoRating.swift */; };
+		B0BFF48E21D6C926005E377D /* AllGroupsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFF48D21D6C926005E377D /* AllGroupsTableController.swift */; };
+		B0BFF49021D6C93E005E377D /* AllGroupsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFF48F21D6C93E005E377D /* AllGroupsTableCell.swift */; };
+		B0BFF49221D6CD70005E377D /* MyGroupsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFF49121D6CD70005E377D /* MyGroupsTableController.swift */; };
+		B0BFF49421D6CD83005E377D /* MyGroupsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFF49321D6CD83005E377D /* MyGroupsTableCell.swift */; };
 		B0EA370721C9651A001D84BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EA370621C9651A001D84BB /* AppDelegate.swift */; };
 		B0EA370C21C9651A001D84BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EA370A21C9651A001D84BB /* Main.storyboard */; };
 		B0EA370E21C9651E001D84BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EA370D21C9651E001D84BB /* Assets.xcassets */; };
@@ -34,16 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0EA370321C9651A001D84BB /* 1L_Nikolay.Shevyakov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1L_Nikolay.Shevyakov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03D38E621D4A97800A13A7A /* FriendsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableController.swift; sourceTree = "<group>"; };
+		B03D38EA21D4A9DA00A13A7A /* FriendsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableCell.swift; sourceTree = "<group>"; };
+		B04D0E1221F6E84C004F00B1 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		B04D0E1421F6E85B004F00B1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		B05E975921D6AB4400ECA2A7 /* FriendsCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionController.swift; sourceTree = "<group>"; };
+		B05E975B21D6AB5F00ECA2A7 /* FriendsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionCell.swift; sourceTree = "<group>"; };
+		B08E6EEF21F1B95E0015FBCC /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		B08E6EF121F1B9A90015FBCC /* OuterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterView.swift; sourceTree = "<group>"; };
+		B08E6EF321F1C94A0015FBCC /* PhotoRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRating.swift; sourceTree = "<group>"; };
+		B0BFF48D21D6C926005E377D /* AllGroupsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableController.swift; sourceTree = "<group>"; };
+		B0BFF48F21D6C93E005E377D /* AllGroupsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableCell.swift; sourceTree = "<group>"; };
+		B0BFF49121D6CD70005E377D /* MyGroupsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableController.swift; sourceTree = "<group>"; };
+		B0BFF49321D6CD83005E377D /* MyGroupsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableCell.swift; sourceTree = "<group>"; };
+		B0EA370321C9651A001D84BB /* snoVkontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snoVkontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EA370621C9651A001D84BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EA370B21C9651A001D84BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0EA370D21C9651E001D84BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EA371021C9651E001D84BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0EA371221C9651E001D84BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0EA371721C9651E001D84BB /* 1L_Nikolay.ShevyakovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1L_Nikolay.ShevyakovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EA371721C9651E001D84BB /* snoVkontakteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snoVkontakteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EA371B21C9651E001D84BB /* _L_Nikolay_ShevyakovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _L_Nikolay_ShevyakovTests.swift; sourceTree = "<group>"; };
 		B0EA371D21C9651E001D84BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0EA372221C9651E001D84BB /* 1L_Nikolay.ShevyakovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1L_Nikolay.ShevyakovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EA372221C9651E001D84BB /* snoVkontakteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snoVkontakteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EA372621C9651E001D84BB /* _L_Nikolay_ShevyakovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _L_Nikolay_ShevyakovUITests.swift; sourceTree = "<group>"; };
 		B0EA372821C9651E001D84BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EA373421C96A09001D84BB /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
@@ -74,6 +100,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B03D38E421D4A91600A13A7A /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				B05E975621D6AAF700ECA2A7 /* FriendsCollection */,
+				B03D38E521D4A92500A13A7A /* FriendsTable */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		B03D38E521D4A92500A13A7A /* FriendsTable */ = {
+			isa = PBXGroup;
+			children = (
+				B03D38E621D4A97800A13A7A /* FriendsTableController.swift */,
+				B03D38EA21D4A9DA00A13A7A /* FriendsTableCell.swift */,
+				B08E6EEF21F1B95E0015FBCC /* AvatarImageView.swift */,
+				B08E6EF121F1B9A90015FBCC /* OuterView.swift */,
+			);
+			path = FriendsTable;
+			sourceTree = "<group>";
+		};
+		B04D0E0D21F6E726004F00B1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				B08E6EF321F1C94A0015FBCC /* PhotoRating.swift */,
+				B04D0E1221F6E84C004F00B1 /* NewsTableViewController.swift */,
+				B04D0E1421F6E85B004F00B1 /* NewsTableViewCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B05E975621D6AAF700ECA2A7 /* FriendsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				B05E975921D6AB4400ECA2A7 /* FriendsCollectionController.swift */,
+				B05E975B21D6AB5F00ECA2A7 /* FriendsCollectionCell.swift */,
+			);
+			path = FriendsCollection;
+			sourceTree = "<group>";
+		};
+		B0BFF48921D6C88E005E377D /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				B0BFF48C21D6C8EA005E377D /* NewGroups */,
+				B0BFF48A21D6C897005E377D /* MyGroups */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		B0BFF48A21D6C897005E377D /* MyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				B0BFF49121D6CD70005E377D /* MyGroupsTableController.swift */,
+				B0BFF49321D6CD83005E377D /* MyGroupsTableCell.swift */,
+			);
+			path = MyGroups;
+			sourceTree = "<group>";
+		};
+		B0BFF48C21D6C8EA005E377D /* NewGroups */ = {
+			isa = PBXGroup;
+			children = (
+				B0BFF48D21D6C926005E377D /* AllGroupsTableController.swift */,
+				B0BFF48F21D6C93E005E377D /* AllGroupsTableCell.swift */,
+			);
+			path = NewGroups;
+			sourceTree = "<group>";
+		};
 		B0EA36FA21C9651A001D84BB = {
 			isa = PBXGroup;
 			children = (
@@ -87,9 +179,9 @@
 		B0EA370421C9651A001D84BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0EA370321C9651A001D84BB /* 1L_Nikolay.Shevyakov.app */,
-				B0EA371721C9651E001D84BB /* 1L_Nikolay.ShevyakovTests.xctest */,
-				B0EA372221C9651E001D84BB /* 1L_Nikolay.ShevyakovUITests.xctest */,
+				B0EA370321C9651A001D84BB /* snoVkontakte.app */,
+				B0EA371721C9651E001D84BB /* snoVkontakteTests.xctest */,
+				B0EA372221C9651E001D84BB /* snoVkontakteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,11 +189,14 @@
 		B0EA370521C9651A001D84BB /* 1L_Nikolay.Shevyakov */ = {
 			isa = PBXGroup;
 			children = (
+				B04D0E0D21F6E726004F00B1 /* News */,
+				B0BFF48921D6C88E005E377D /* Groups */,
+				B03D38E421D4A91600A13A7A /* Friends */,
 				B0EA370621C9651A001D84BB /* AppDelegate.swift */,
 				B0EA373421C96A09001D84BB /* LoginFormController.swift */,
 				B0EA370A21C9651A001D84BB /* Main.storyboard */,
-				B0EA370D21C9651E001D84BB /* Assets.xcassets */,
 				B0EA370F21C9651E001D84BB /* LaunchScreen.storyboard */,
+				B0EA370D21C9651E001D84BB /* Assets.xcassets */,
 				B0EA371221C9651E001D84BB /* Info.plist */,
 			);
 			path = 1L_Nikolay.Shevyakov;
@@ -128,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0EA370221C9651A001D84BB /* 1L_Nikolay.Shevyakov */ = {
+		B0EA370221C9651A001D84BB /* snoVkontakte */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0EA372B21C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.Shevyakov" */;
+			buildConfigurationList = B0EA372B21C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakte" */;
 			buildPhases = (
 				B0EA36FF21C9651A001D84BB /* Sources */,
 				B0EA370021C9651A001D84BB /* Frameworks */,
@@ -140,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = 1L_Nikolay.Shevyakov;
+			name = snoVkontakte;
 			productName = 1L_Nikolay.Shevyakov;
-			productReference = B0EA370321C9651A001D84BB /* 1L_Nikolay.Shevyakov.app */;
+			productReference = B0EA370321C9651A001D84BB /* snoVkontakte.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B0EA371621C9651E001D84BB /* 1L_Nikolay.ShevyakovTests */ = {
+		B0EA371621C9651E001D84BB /* snoVkontakteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0EA372E21C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.ShevyakovTests" */;
+			buildConfigurationList = B0EA372E21C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakteTests" */;
 			buildPhases = (
 				B0EA371321C9651E001D84BB /* Sources */,
 				B0EA371421C9651E001D84BB /* Frameworks */,
@@ -158,14 +253,14 @@
 			dependencies = (
 				B0EA371921C9651E001D84BB /* PBXTargetDependency */,
 			);
-			name = 1L_Nikolay.ShevyakovTests;
+			name = snoVkontakteTests;
 			productName = 1L_Nikolay.ShevyakovTests;
-			productReference = B0EA371721C9651E001D84BB /* 1L_Nikolay.ShevyakovTests.xctest */;
+			productReference = B0EA371721C9651E001D84BB /* snoVkontakteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B0EA372121C9651E001D84BB /* 1L_Nikolay.ShevyakovUITests */ = {
+		B0EA372121C9651E001D84BB /* snoVkontakteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0EA373121C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.ShevyakovUITests" */;
+			buildConfigurationList = B0EA373121C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakteUITests" */;
 			buildPhases = (
 				B0EA371E21C9651E001D84BB /* Sources */,
 				B0EA371F21C9651E001D84BB /* Frameworks */,
@@ -176,9 +271,9 @@
 			dependencies = (
 				B0EA372421C9651E001D84BB /* PBXTargetDependency */,
 			);
-			name = 1L_Nikolay.ShevyakovUITests;
+			name = snoVkontakteUITests;
 			productName = 1L_Nikolay.ShevyakovUITests;
-			productReference = B0EA372221C9651E001D84BB /* 1L_Nikolay.ShevyakovUITests.xctest */;
+			productReference = B0EA372221C9651E001D84BB /* snoVkontakteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0EA36FE21C9651A001D84BB /* Build configuration list for PBXProject "1L_Nikolay.Shevyakov" */;
+			buildConfigurationList = B0EA36FE21C9651A001D84BB /* Build configuration list for PBXProject "snoVkontakte" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +312,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0EA370221C9651A001D84BB /* 1L_Nikolay.Shevyakov */,
-				B0EA371621C9651E001D84BB /* 1L_Nikolay.ShevyakovTests */,
-				B0EA372121C9651E001D84BB /* 1L_Nikolay.ShevyakovUITests */,
+				B0EA370221C9651A001D84BB /* snoVkontakte */,
+				B0EA371621C9651E001D84BB /* snoVkontakteTests */,
+				B0EA372121C9651E001D84BB /* snoVkontakteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +351,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08E6EF221F1B9A90015FBCC /* OuterView.swift in Sources */,
 				B0EA370721C9651A001D84BB /* AppDelegate.swift in Sources */,
+				B04D0E1521F6E85B004F00B1 /* NewsTableViewCell.swift in Sources */,
+				B0BFF49021D6C93E005E377D /* AllGroupsTableCell.swift in Sources */,
+				B05E975A21D6AB4400ECA2A7 /* FriendsCollectionController.swift in Sources */,
+				B08E6EF021F1B95E0015FBCC /* AvatarImageView.swift in Sources */,
+				B03D38EB21D4A9DA00A13A7A /* FriendsTableCell.swift in Sources */,
+				B05E975C21D6AB5F00ECA2A7 /* FriendsCollectionCell.swift in Sources */,
 				B0EA373521C96A09001D84BB /* LoginFormController.swift in Sources */,
+				B0BFF49421D6CD83005E377D /* MyGroupsTableCell.swift in Sources */,
+				B03D38E721D4A97800A13A7A /* FriendsTableController.swift in Sources */,
+				B0BFF48E21D6C926005E377D /* AllGroupsTableController.swift in Sources */,
+				B08E6EF421F1C94A0015FBCC /* PhotoRating.swift in Sources */,
+				B04D0E1321F6E84C004F00B1 /* NewsTableViewController.swift in Sources */,
+				B0BFF49221D6CD70005E377D /* MyGroupsTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +390,12 @@
 /* Begin PBXTargetDependency section */
 		B0EA371921C9651E001D84BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0EA370221C9651A001D84BB /* 1L_Nikolay.Shevyakov */;
+			target = B0EA370221C9651A001D84BB /* snoVkontakte */;
 			targetProxy = B0EA371821C9651E001D84BB /* PBXContainerItemProxy */;
 		};
 		B0EA372421C9651E001D84BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0EA370221C9651A001D84BB /* 1L_Nikolay.Shevyakov */;
+			target = B0EA370221C9651A001D84BB /* snoVkontakte */;
 			targetProxy = B0EA372321C9651E001D84BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,7 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MT8879MH8;
 				INFOPLIST_FILE = 1L_Nikolay.Shevyakov/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MT8879MH8;
 				INFOPLIST_FILE = 1L_Nikolay.Shevyakov/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1L_Nikolay.Shevyakov.app/1L_Nikolay.Shevyakov";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snoVkontakte.app/snoVkontakte";
 			};
 			name = Debug;
 		};
@@ -502,7 +610,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1L_Nikolay.Shevyakov.app/1L_Nikolay.Shevyakov";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snoVkontakte.app/snoVkontakte";
 			};
 			name = Release;
 		};
@@ -547,7 +655,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0EA36FE21C9651A001D84BB /* Build configuration list for PBXProject "1L_Nikolay.Shevyakov" */ = {
+		B0EA36FE21C9651A001D84BB /* Build configuration list for PBXProject "snoVkontakte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0EA372921C9651E001D84BB /* Debug */,
@@ -556,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0EA372B21C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.Shevyakov" */ = {
+		B0EA372B21C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0EA372C21C9651E001D84BB /* Debug */,
@@ -565,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0EA372E21C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.ShevyakovTests" */ = {
+		B0EA372E21C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0EA372F21C9651E001D84BB /* Debug */,
@@ -574,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0EA373121C9651E001D84BB /* Build configuration list for PBXNativeTarget "1L_Nikolay.ShevyakovUITests" */ = {
+		B0EA373121C9651E001D84BB /* Build configuration list for PBXNativeTarget "snoVkontakteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0EA373221C9651E001D84BB /* Debug */,

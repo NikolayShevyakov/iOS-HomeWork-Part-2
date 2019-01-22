@@ -15,6 +15,7 @@ class LoginFormController: UIViewController {
     @IBOutlet weak var passwordInput: UITextField!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +25,38 @@ class LoginFormController: UIViewController {
         scrollView?.addGestureRecognizer(hideKeyBoardGesture)
 
     }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        //проверяем данне
+        let checkResult = checkUserData()
+        //Если данные неверны? покажем ошибку
+        if !checkResult {
+            showLoginError()
+        }
+        //Вернем результат
+        return checkResult
+    }
+    
+    func checkUserData()->Bool{
+        let login = loginInput.text!
+        let password = passwordInput.text!
+        
+        if login == "1" && password == "1" {
+            return true
+        }else{
+            return false
+        }
+    }
+    func showLoginError(){
+        let alter = UIAlertController(title: "Ошибка", message: "Введены не верные данные пользователя", preferredStyle: .alert)
+        //Создаем кнопку для UIAlertController
+        let action = UIAlertAction(title: "ОК", style:.cancel, handler:nil)
+        //Добавляем кнопку на UIAlertController
+        alter.addAction(action)
+        //Показываем UIAlertController
+        present(alter, animated: true, completion: nil)
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning() 
@@ -36,7 +69,7 @@ class LoginFormController: UIViewController {
         let password = passwordInput.text!
         
         //Проверяем, верны ли они
-        if login == "admin" && password == "123456"{
+        if login == "1" && password == "1"{
             print("Успешная авторизация")
         }else{
             print("не удалось авторизоваться")
@@ -83,5 +116,38 @@ class LoginFormController: UIViewController {
         self.scrollView?.endEditing(true)
     }
     
-
 }
+
+
+@IBDesignable extension UIButton {
+    
+    @IBInspectable var borderWidth: CGFloat {
+        set {
+            layer.borderWidth = newValue
+        }
+        get {
+            return layer.borderWidth
+        }
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat {
+        set {
+            layer.cornerRadius = newValue
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor? {
+        set {
+            guard let uiColor = newValue else { return }
+            layer.borderColor = uiColor.cgColor
+        }
+        get {
+            guard let color = layer.borderColor else { return nil }
+            return UIColor(cgColor: color)
+        }
+    }
+}
+
